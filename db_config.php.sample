@@ -1,6 +1,8 @@
 <?php
-$host = "127.0.0.1";
-$db = "";
-$user = "";
-$pass = "";
+$dbConfig = array(
+	"host" 	=> "127.0.0.1",
+	"db" 	=> "ccq_finder",
+	"user" 	=> "root",
+	"pass" 	=> ""
+);
 ?>

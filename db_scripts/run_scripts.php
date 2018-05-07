@@ -1,6 +1,9 @@
 <?php
 
 require "../db_config.php";
+require "../ccq_finder_helper.php";
+
+$conn = CCQFinderHelper::connectToDB($dbConfig);
 
 $baseFileName = "db_script_";
 $fileNumber = 1;
